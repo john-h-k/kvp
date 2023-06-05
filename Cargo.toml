@@ -1,6 +1,6 @@
 [package]
 name = "kvp"
-version = "1.0.0"
+version = "1.0.1"
 edition = "2021"
 description = "Provides types to store multiple fields where equality, ordering, and hashing are only implemented through one of the types"
 license = "MIT"
