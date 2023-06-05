@@ -9,10 +9,10 @@
 //! ```
 //! let heap = BinaryHeap::new();
 //!
-//! heap.insert(KeyValuePair { key: 50, value: "Hey, here's an associated value" })
+//! heap.push(KeyValuePair { key: 50, value: "Hey, here's an associated value" })
 //! // You can also use ::new syntax
-//! heap.insert(KeyValuePair::new(0, "another bit of associated data!"));
-//! heap.insert(KeyValuePair::new(22, "voila"));
+//! heap.push(KeyValuePair::new(0, "another bit of associated data!"));
+//! heap.push(KeyValuePair::new(22, "voila"));
 //!
 //! assert_matches!(heap.pop(), Some(50));
 //! assert_matches!(heap.pop(), Some(22));
