@@ -24,7 +24,6 @@
 
 use core::{fmt, hash::Hash};
 
-///
 pub struct KeyValuePair<TKey, TValue> {
     pub key: TKey,
     pub value: TValue,
